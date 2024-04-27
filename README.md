@@ -40,6 +40,11 @@ pumpx --key_dir <KEY DIR> buy --mint-address <MINT_ADDRESS> --amount <SOL_AMOUNT
 - --confirm_delay: The confirmation delay in milliseconds, defaults to 1000.
 - --threads: Sets the number of threads, defaults to 4.
 
+#### Example
+```
+/pump-x --key-dir ~/Desktop/keys buy --mint-address D9rZtSNhqPP8R6Jp6n6dapoEZvrbA9fiGyemrz6HYPsE --amount 0.001
+```
+
 ### Sell Operation
 ```
 pumpx --key_dir <KEY DIR>  sell --mint-address <MINT_ADDRESS> --percent <SELL_PERCENT> --slippage <SLIPPAGE> --priority_fee <PRIORITY_FEE> --jito_enable <BOOL> --jito_fee <JITO_FEE> --gateway_retries <RETRIES> --confirm_retries <RETRIES> --gateway_delay <MILLISECONDS> --confirm_delay <MILLISECONDS> --threads <THREADS>
@@ -56,6 +61,11 @@ pumpx --key_dir <KEY DIR>  sell --mint-address <MINT_ADDRESS> --percent <SELL_PE
 - --gateway_delay: The gateway delay in milliseconds, defaults to 500.
 - --confirm_delay: The confirmation delay in milliseconds, defaults to 1000.
 - --threads: Sets the number of threads, defaults to 4.
+
+#### Example
+```
+./pump-x --key-dir ~/Desktop/keys sell --mint-address D9rZtSNhqPP8R6Jp6n6dapoEZvrbA9fiGyemrz6HYPsE
+```
 
 ## Notes
 - Ensure you have sufficient SOL balance to cover transaction fees.
