@@ -42,7 +42,7 @@ pumpx --key_dir <KEY DIR> buy --mint-address <MINT_ADDRESS> --amount <SOL_AMOUNT
 
 #### Example
 ```
-/pump-x --key-dir ~/Desktop/keys buy --mint-address D9rZtSNhqPP8R6Jp6n6dapoEZvrbA9fiGyemrz6HYPsE --amount 0.001
+./pump-x --key-dir ~/Desktop/keys buy --mint-address D9rZtSNhqPP8R6Jp6n6dapoEZvrbA9fiGyemrz6HYPsE --amount 0.001
 ```
 
 ### Sell Operation
