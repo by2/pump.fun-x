@@ -9,11 +9,11 @@ Pump.fun-x is an automation tool for conducting buy and sell transactions on Sol
 
 ### Buy Operation
 
-![image](https://github.com/by2/pump.fun-x/screenshots/buy.png)
+![image](./screenshots/buy.png)
 
 ### Sell Operation
 
-![image](https://github.com/by2/pump.fun-x/screenshots/sell.png)
+![image](./screenshots/sell.png)
 
 ## Usage
 
