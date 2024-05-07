@@ -15,6 +15,10 @@ Pump.fun-x is an automation tool for conducting buy and sell transactions on Sol
 
 ![image](./screenshots/sell.png)
 
+### Balance Operation
+
+![image](./screenshots/balance.png)
+
 ## Usage
 
 ### Common Parameters
@@ -65,6 +69,16 @@ pumpx --key_dir <KEY DIR>  sell --mint-address <MINT_ADDRESS> --percent <SELL_PE
 #### Example
 ```
 ./pump-x --key-dir ~/Desktop/keys sell --mint-address D9rZtSNhqPP8R6Jp6n6dapoEZvrbA9fiGyemrz6HYPsE
+```
+
+### Balance Operation
+```
+pumpx --key_dir <KEY DIR>  balance
+```
+
+#### Example
+```
+./pump-x --key-dir ~/Desktop/keys balance
 ```
 
 ## Notes
