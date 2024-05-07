@@ -4,6 +4,7 @@ Pump.fun-x is an automation tool for conducting buy and sell transactions on Sol
 ## Features
 - **Buy**: Automate the purchase of specific Solana tokens.
 - **Sell**: Automate the sale of specific Solana tokens.
+- **Balance**: Balance of Solana tokens.
 
 ## Screenshots
 
