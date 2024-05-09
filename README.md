@@ -4,6 +4,7 @@ Pump.fun-x is an automation tool for conducting buy and sell transactions on Sol
 ## Features
 - **Buy**: Automate the purchase of specific Solana tokens.
 - **Sell**: Automate the sale of specific Solana tokens.
+- **Close**: Close token account, claim your SOL.
 - **Balance**: Balance of Solana tokens.
 
 ## Screenshots
@@ -19,6 +20,10 @@ Pump.fun-x is an automation tool for conducting buy and sell transactions on Sol
 ### Balance Operation
 
 ![image](./screenshots/balance.png)
+
+### Close Operation
+
+![image](./screenshots/close.png)
 
 ## Usage
 
@@ -71,6 +76,16 @@ pumpx --key_dir <KEY DIR>  sell --mint-address <MINT_ADDRESS> --percent <SELL_PE
 ```
 ./pump-x --key-dir ~/Desktop/keys sell --mint-address D9rZtSNhqPP8R6Jp6n6dapoEZvrbA9fiGyemrz6HYPsE
 ```
+### Close Operation
+```
+pumpx --key_dir <KEY DIR>  close --priority_fee <PRIORITY_FEE> --threads <THREADS>
+```
+- --priority_fee: Sets the transaction's priority fee, defaults to 10000.
+- --threads: Sets the number of threads, defaults to 8.
+
+#### Example
+```
+./pump-x --key-dir ~/Desktop/keys close
 
 ### Balance Operation
 ```
