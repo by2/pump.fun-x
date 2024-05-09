@@ -17,13 +17,13 @@ Pump.fun-x is an automation tool for conducting buy and sell transactions on Sol
 
 ![image](./screenshots/sell.png)
 
-### Balance Operation
-
-![image](./screenshots/balance.png)
-
 ### Close Operation
 
 ![image](./screenshots/close.png)
+
+### Balance Operation
+
+![image](./screenshots/balance.png)
 
 ## Usage
 
@@ -86,6 +86,7 @@ pumpx --key_dir <KEY DIR>  close --priority_fee <PRIORITY_FEE> --threads <THREAD
 #### Example
 ```
 ./pump-x --key-dir ~/Desktop/keys close
+```
 
 ### Balance Operation
 ```
