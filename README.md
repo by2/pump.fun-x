@@ -8,6 +8,9 @@ Pump.fun-x is an automation tool for conducting buy and sell transactions on Sol
 - **Balance**: Balance of Solana tokens.
 - **Collect**: Gather the SOL from the wallets into a designated wallet.
 - **Distribute**: Distribute the wallet's balance to multiple wallets.
+- **Create**: Automate create token account.
+- **Bundle Buy**: 24 buy txn in one bundle.
+- **Bundle Sell**: 24 sell txn in one bundle.
 
 ## Screenshots
 
